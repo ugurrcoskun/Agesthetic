@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/mac1/Documents/projeler/agesthetic/web3/contracts/IntroBounty.sol": {
+      "lastModificationDate": 1772285965541,
+      "contentHash": "c1e4a808cd0490d1f5bd2ed9b660c25f",
+      "sourceName": "contracts/IntroBounty.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IntroBounty"
+      ]
+    }
+  }
+}

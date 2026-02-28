@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* DEEP SPACE & NEON PALETTE */
+  --bg: #030305;
+  --bg-nav: #080810;
+  --bg-surface: #0a0b14;
+  --bg-elevated: #101220;
+  
+  --text-main: #e0f2fe;
+  --text-dim: #7dd3fc;
+  --text-ghost: #38bdf8;
+  
+  --cyan-glow: #00f3ff;
+  --pink-neon: #ff003c;
+  --toxic-green: #39ff14;
+  --warning-amber: #ffb000;
+  
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Rajdhani', sans-serif;
+  --font-code: 'Fira Code', monospace;
+  
+  --border-tech: 1px solid rgba(0, 243, 255, 0.3);
+  --border-thick: 2px solid var(--cyan-glow);
+  
+  --grid-size: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  overflow-x: hidden;
+  cursor: crosshair;
+  /* TACTICAL GRID HOLOGRAPHY */
+  background-image: 
+      linear-gradient(rgba(0, 243, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 243, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(rgba(0, 243, 255, 0.01) 2px, transparent 2px),
+      linear-gradient(90deg, rgba(0, 243, 255, 0.01) 2px, transparent 2px);
+  background-size: 
+      var(--grid-size) var(--grid-size), 
+      var(--grid-size) var(--grid-size), 
+      calc(var(--grid-size) * 5) calc(var(--grid-size) * 5), 
+      calc(var(--grid-size) * 5) calc(var(--grid-size) * 5);
+  background-position: -1px -1px;
+}
+
+/* SCANLINE EFFECT */
+body::after {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+/* GLITCHING VIGNETTE */
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* GLITCH TEXT EFFECT CLS */
+.glitch-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  color: var(--text-main);
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.8), 0 0 20px rgba(0, 243, 255, 0.4);
+  letter-spacing: 4px;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 var(--pink-neon);
+  clip: rect(24px, 550px, 90px, 0);
+  animation: glitch-anim-2 3s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -2px;
+  text-shadow: -2px 0 var(--cyan-glow);
+  clip: rect(85px, 550px, 140px, 0);
+  animation: glitch-anim 2.5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  0% { clip: rect(10px, 9999px, 81px, 0); }
+  20% { clip: rect(69px, 9999px, 32px, 0); }
+  40% { clip: rect(11px, 9999px, 98px, 0); }
+  60% { clip: rect(83px, 9999px, 8px, 0); }
+  80% { clip: rect(51px, 9999px, 66px, 0); }
+  100% { clip: rect(93px, 9999px, 12px, 0); }
+}
+
+@keyframes glitch-anim-2 {
+  0% { clip: rect(65px, 9999px, 100px, 0); }
+  20% { clip: rect(21px, 9999px, 91px, 0); }
+  40% { clip: rect(43px, 9999px, 53px, 0); }
+  60% { clip: rect(82px, 9999px, 20px, 0); }
+  80% { clip: rect(7px, 9999px, 85px, 0); }
+  100% { clip: rect(99px, 9999px, 44px, 0); }
+}
+
+@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes pulse-disabled { 0%, 100% { opacity: 0.2; } 50% { opacity: 0.5; } }
+@keyframes pulse-txt { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+@keyframes spin { 100% { transform: rotate(360deg); } }
+@keyframes reveal-console { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }

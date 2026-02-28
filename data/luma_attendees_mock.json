@@ -1,0 +1,307 @@
+{
+    "events": [
+        {
+            "event_id": "evt_001",
+            "event_name": "AI Builders Global Meetup",
+            "date": "2025-12-15",
+            "location": "San Francisco, USA",
+            "platform": "Luma",
+            "attendees": [
+                {
+                    "name": "Harrison Chase",
+                    "x_handle": "@hwchase17",
+                    "title": "CEO @ LangChain",
+                    "interests": ["deep learning", "computer vision", "NLP", "open source"],
+                    "bio": "Building LangChain. Passionate about empowering developers to build context-aware reasoning applications.",
+                    "mutual_events_count": 3,
+                    "connection_strength": "strong"
+                },
+                {
+                    "name": "Andrej Karpathy",
+                    "x_handle": "@karpathy",
+                    "title": "AI Educator & Researcher",
+                    "interests": ["genomics", "deep learning", "single-cell biology", "computational biology"],
+                    "bio": "Building Eureka Labs. Previously Director of AI at Tesla. Passionate about teaching neural networks.",
+                    "mutual_events_count": 2,
+                    "connection_strength": "medium"
+                },
+                {
+                    "name": "Clem Delangue",
+                    "x_handle": "@clem",
+                    "title": "CEO @ Hugging Face",
+                    "interests": ["NLP", "transformers", "open source AI", "MLOps", "community building"],
+                    "bio": "Co-founder & CEO at Hugging Face. Democratizing good machine learning one commit at a time.",
+                    "mutual_events_count": 3,
+                    "connection_strength": "strong"
+                },
+                {
+                    "name": "Mira Murati",
+                    "x_handle": "@miramurati",
+                    "title": "CTO @ OpenAI",
+                    "interests": ["LLMs", "enterprise AI", "NLP", "startups", "product strategy"],
+                    "bio": "Leading technology and product at OpenAI. Shaping the future of artificial general intelligence.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Guillermo Rauch",
+                    "x_handle": "@rauchg",
+                    "title": "CEO @ Vercel",
+                    "interests": ["serverless", "edge computing", "Redis", "developer tools", "open source"],
+                    "bio": "Building the native OS for the Web at Vercel. Creator of Next.js and Socket.io.",
+                    "mutual_events_count": 2,
+                    "connection_strength": "medium"
+                },
+                {
+                    "name": "John Doe",
+                    "x_handle": "@johndoe",
+                    "title": "AI Developer",
+                    "interests": [],
+                    "bio": "AI Developer exploring language models.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                }
+            ]
+        },
+        {
+            "event_id": "evt_002",
+            "event_name": "LLM Ops & Agent Engineering Conference",
+            "date": "2026-01-22",
+            "location": "London, UK",
+            "platform": "Luma",
+            "attendees": [
+                {
+                    "name": "Harrison Chase",
+                    "x_handle": "@hwchase17",
+                    "title": "CEO @ LangChain",
+                    "interests": ["deep learning", "computer vision", "NLP", "open source"],
+                    "bio": "Building LangChain. Passionate about empowering developers to build context-aware reasoning applications.",
+                    "mutual_events_count": 3,
+                    "connection_strength": "strong"
+                },
+                {
+                    "name": "Clem Delangue",
+                    "x_handle": "@clem",
+                    "title": "CEO @ Hugging Face",
+                    "interests": ["NLP", "transformers", "open source AI", "MLOps", "community building"],
+                    "bio": "Co-founder & CEO at Hugging Face. Democratizing good machine learning one commit at a time.",
+                    "mutual_events_count": 3,
+                    "connection_strength": "strong"
+                },
+                {
+                    "name": "Alexandr Wang",
+                    "x_handle": "@alexandr_wang",
+                    "title": "CEO @ Scale AI",
+                    "interests": ["systems engineering", "AI at scale", "recommendation systems", "MLOps"],
+                    "bio": "CEO & Founder at Scale AI. Accelerating the development of AI applications.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Lex Fridman",
+                    "x_handle": "@lexfridman",
+                    "title": "Podcaster & AI Researcher",
+                    "interests": ["computer vision", "deep learning", "AI education", "robotics"],
+                    "bio": "Research Scientist at MIT. Host of the Lex Fridman Podcast discussing intelligence, consciousness, and love.",
+                    "mutual_events_count": 2,
+                    "connection_strength": "medium"
+                },
+                {
+                    "name": "Andrew Ng",
+                    "x_handle": "@AndrewYNg",
+                    "title": "Founder @ DeepLearning.AI",
+                    "interests": ["NLP", "text mining", "Turkish language processing", "academia"],
+                    "bio": "Founder of DeepLearning.AI, Coursera, AI Fund. Formerly head of Google Brain and Baidu AI Group.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Guillermo Rauch",
+                    "x_handle": "@rauchg",
+                    "title": "CEO @ Vercel",
+                    "interests": ["serverless", "edge computing", "Redis", "developer tools", "open source"],
+                    "bio": "Building the native OS for the Web at Vercel. Creator of Next.js.",
+                    "mutual_events_count": 2,
+                    "connection_strength": "medium"
+                },
+                {
+                    "name": "Yann LeCun",
+                    "x_handle": "@ylecun",
+                    "title": "Chief AI Scientist @ Meta",
+                    "interests": ["recommendation systems", "search", "conversational AI", "e-commerce AI"],
+                    "bio": "Chief AI Scientist at Meta. Silver Professor at NYU. Turing Award Laureate.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Jane Smith",
+                    "x_handle": "@janesmith_dev",
+                    "title": "AI Engineer",
+                    "interests": [],
+                    "bio": "Building AI powered apps.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                }
+            ]
+        },
+        {
+            "event_id": "evt_003",
+            "event_name": "Global AI Summit 2026",
+            "date": "2026-02-10",
+            "location": "New York, USA",
+            "platform": "Luma",
+            "attendees": [
+                {
+                    "name": "Harrison Chase",
+                    "x_handle": "@hwchase17",
+                    "title": "CEO @ LangChain",
+                    "interests": ["deep learning", "computer vision", "NLP", "open source"],
+                    "bio": "Building LangChain. Passionate about empowering developers to build context-aware reasoning applications.",
+                    "mutual_events_count": 3,
+                    "connection_strength": "strong"
+                },
+                {
+                    "name": "Clem Delangue",
+                    "x_handle": "@clem",
+                    "title": "CEO @ Hugging Face",
+                    "interests": ["NLP", "transformers", "open source AI", "MLOps", "community building"],
+                    "bio": "Co-founder & CEO at Hugging Face. Democratizing good machine learning one commit at a time.",
+                    "mutual_events_count": 3,
+                    "connection_strength": "strong"
+                },
+                {
+                    "name": "Andrej Karpathy",
+                    "x_handle": "@karpathy",
+                    "title": "AI Educator & Researcher",
+                    "interests": ["genomics", "deep learning", "single-cell biology", "computational biology"],
+                    "bio": "Building Eureka Labs. Previously Director of AI at Tesla.",
+                    "mutual_events_count": 2,
+                    "connection_strength": "medium"
+                },
+                {
+                    "name": "Lex Fridman",
+                    "x_handle": "@lexfridman",
+                    "title": "Podcaster & AI Researcher",
+                    "interests": ["computer vision", "deep learning", "AI education", "robotics"],
+                    "bio": "Research Scientist at MIT. Host of the Lex Fridman Podcast.",
+                    "mutual_events_count": 2,
+                    "connection_strength": "medium"
+                },
+                {
+                    "name": "Demis Hassabis",
+                    "x_handle": "@demishassabis",
+                    "title": "CEO @ Google DeepMind",
+                    "interests": ["NLP", "information retrieval", "Lisp", "functional programming"],
+                    "bio": "Founder & CEO of Google DeepMind. Working on solving intelligence and then using that to solve everything else.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Sam Altman",
+                    "x_handle": "@sama",
+                    "title": "CEO @ OpenAI",
+                    "interests": ["conversational AI", "chatbots", "enterprise AI", "startups"],
+                    "bio": "CEO of OpenAI. Former President of Y Combinator.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Mira Murati",
+                    "x_handle": "@miramurati",
+                    "title": "CTO @ OpenAI",
+                    "interests": ["LLMs", "enterprise AI", "NLP", "startups", "product strategy"],
+                    "bio": "Leading technology at OpenAI.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Yann LeCun",
+                    "x_handle": "@ylecun",
+                    "title": "Chief AI Scientist @ Meta",
+                    "interests": ["recommendation systems", "search", "conversational AI", "e-commerce AI"],
+                    "bio": "Chief AI Scientist at Meta.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Jane Smith",
+                    "x_handle": "@janesmith_dev",
+                    "title": "AI Developer",
+                    "interests": [],
+                    "bio": "Building AI powered apps.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                }
+            ]
+        },
+        {
+            "event_id": "evt_004",
+            "event_name": "Y Combinator AI Batch Meetup",
+            "date": "2026-03-05",
+            "location": "Virtual",
+            "platform": "Luma",
+            "attendees": [
+                {
+                    "name": "Paul Graham",
+                    "x_handle": "@paulg",
+                    "title": "Co-Founder @ Y Combinator",
+                    "interests": ["software architecture", "developer communities", "startups"],
+                    "bio": "Co-founder of Y Combinator. Author of Hackers & Painters. Programmer, writer, investor.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Lee Robinson",
+                    "x_handle": "@leeerob",
+                    "title": "VP of Developer Experience @ Vercel",
+                    "interests": ["React", "Next.js", "web performance", "design systems"],
+                    "bio": "Building developer experiences at Vercel. Teaching developers Next.js and React online.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Guillermo Rauch",
+                    "x_handle": "@rauchg",
+                    "title": "CEO @ Vercel",
+                    "interests": ["serverless", "edge computing", "Redis"],
+                    "bio": "Creator of Next.js and Socket.io.",
+                    "mutual_events_count": 2,
+                    "connection_strength": "medium"
+                },
+                {
+                    "name": "Alexandr Wang",
+                    "x_handle": "@alexandr_wang",
+                    "title": "CEO @ Scale AI",
+                    "interests": ["ML infrastructure"],
+                    "bio": "Leading data labeling at scale.",
+                    "mutual_events_count": 1,
+                    "connection_strength": "weak"
+                },
+                {
+                    "name": "Lex Fridman",
+                    "x_handle": "@lexfridman",
+                    "title": "Podcaster & AI Researcher",
+                    "interests": ["computer vision", "robotics"],
+                    "bio": "Host of the Lex Fridman Podcast.",
+                    "mutual_events_count": 2,
+                    "connection_strength": "medium"
+                },
+                {
+                    "name": "Harrison Chase",
+                    "x_handle": "@hwchase17",
+                    "title": "CEO @ LangChain",
+                    "interests": ["deep learning"],
+                    "bio": "Building tools for LLM developers.",
+                    "mutual_events_count": 3,
+                    "connection_strength": "strong"
+                }
+            ]
+        }
+    ],
+    "user_profile": {
+        "name": "Alice Johnson",
+        "x_handle": "@alice_dev",
+        "interests": ["AI agents", "startups", "entrepreneurship", "developer tools"],
+        "bio": "AI developer & startup enthusiast. Building autonomous systems that connect people globally."
+    }
+}
